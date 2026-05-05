@@ -32,21 +32,21 @@ python stereo_ncc_disparity.py
 python canny_from_scratch.py
 ```
 
-## Result screenshots
+## Algorithm output
 
 ![classical-image-processing-algorithms result screenshot](docs/results/result-screenshot.png)
 
 Representative outputs from manual Canny, stereo NCC, and frequency-domain filtering.
 
 
-## What this demonstrates
+## Image-processing scope
 
 - Core image-processing algorithms implemented directly rather than hidden behind one-line library calls.
 - Comparison artifacts that make intermediate behavior visible.
 - Breadth across Fourier filtering, stereo matching, and edge detection.
 
 
-## Limitations and next steps
+## Follow-up validation
 
 - The implementations prioritize clarity over real-time performance.
 - Parameter choices are tuned for the included sample images.
